@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Aayush Bhatta</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        .cv-container { max-width: 800px; margin: 0 auto; background: white; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        .cv-header { border-bottom: 2px solid #00205b; padding-bottom: 20px; margin-bottom: 20px; }
+        .cv-section { margin-bottom: 25px; }
+        .cv-section h3 { color: #00205b; text-transform: uppercase; font-size: 1.1rem; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-bottom: 15px; }
+        .cv-item { margin-bottom: 15px; }
+        .cv-item-header { display: flex; justify-content: space-between; font-weight: 600; }
+        .cv-item-sub { font-style: italic; color: #666; font-size: 0.9rem; }
+        .cv-download { text-align: center; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">AB.</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main class="container section">
+        <div class="cv-download">
+            <a href="assets/cv.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Download PDF Version</a>
+        </div>
+
+        <div class="cv-container">
+            <div class="cv-header">
+                <h1>Aayush Bhatta</h1>
+                <p>079msmde001.aayush@pcampus.edu.np | Bengaluru, India</p>
+            </div>
+
+            <div class="cv-section">
+                <h3>Education</h3>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span>M.Sc. Mechanical Systems Design</span>
+                        <span>2023 - 2025</span>
+                    </div>
+                    <div class="cv-item-sub">Tribhuvan University | GPA: 80.27%</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span>B.E. Mechanical Engineering</span>
+                        <span>2016 - 2021</span>
+                    </div>
+                    <div class="cv-item-sub">Tribhuvan University</div>
+                </div>
+            </div>
+
+            <div class="cv-section">
+                <h3>Experience</h3>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span>Structures Design (Intern) - Airbus India</span>
+                        <span>July 2025 - Present</span>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span>Teaching Assistant - Tribhuvan University</span>
+                        <span>May 2023 - May 2025</span>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span>Mechanical Engineer - National Innovation Center</span>
+                        <span>May 2022 - May 2023</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cv-section">
+                <h3>Skills</h3>
+                <p>AutoCAD, SOLIDWORKS, CATIA, ANSYS, OpenFOAM, C, Python, R, VBA.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
